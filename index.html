@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Mon portfolio</title>
+    <meta type="description" content="Ceci est mon portfolio">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="styles/styles.css" type="text/css">
+</head>
+<body>
+    <header>
+        <div class="boxed">
+            <div class="flex aligncenter space-between">
+                <button onclick="openMenu()" class="header-menu-mobile">
+                    <span class="material-icons">menu</span>
+                </button>
+                <a class="header-logo">
+                    <img src="img/logo_epfl_mines.jpg">
+                </a>
+                <ul class="header-menu">
+                    <li><a href="#acceuil">Acceuil</a></li>
+                    <li><a href="#apropos">A propos de moi</a></li>
+                    <li><a href="#competences">Compétences</a></li>
+                    <li><a href="#projets">Projets</a></li>
+                    <li><a href="#associations">Associations</a></li>
+                    <li><a href="#contact">Contactez-me</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    
+    <div class="slider" id="acceuil">
+        <img src="img/DSC_0061.JPG" class="slider-background">
+        <div class="slider-content">
+            <div>
+                <h1>Maxime Schwartz</h1>
+                <p>Etudiant en génie mécanique spécialisé dans l'innovation et la conception</p>
+            </div>
+            <div class="slider-right">
+              <img src="img/SCWARTZ_BasseDef.jpg" alt="Photo de Maxime" class="portrait">
+            </div>
+        </div>
+    </div>
+
+    <div class="section" id="apropos">
+        <div class="boxed">
+            <div class="flex toColumn mCenter center">
+                <div class="w40 wm100">
+                <h2>A propos de moi</h2>
+                </div>
+                <div class="w60 wm100">
+                    <p>Je suis étudiant en génie mécanique à l’École des Mines de Nancy, après un parcours en microtechnique à l’EPFL (Lausanne).</p>
+                    <p>Au cours de mes études à l’EPFL, j’ai eu l’opportunité de participer à plusieurs projets de conception et de programmation. Ces expériences ont confirmé ma passion pour l’innovation, la précision et la transformation d’idées en projets concrets. Vous pouvez découvrir certains de mes rapports dans la section <a href="#projets">Projets</a>.</p>
+                    <p>En dehors de l’ingénierie, je pratique le basket et le saxophone depuis mon plus jeune âge. Ces activités m’ont permis d'acquérir des valeurs que je considère essentielles pour un ingénieur : l’esprit d’équipe, la discipline et la persévérance.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section dark" id="competences">
+        <div class="boxed text-center">
+            <h2>Compétences</h2>
+            <div class="flex wrap toColumn gap20 center">
+                <div class="w10 wm100 skill">
+                    <img src="img/python-logo-only.png">
+                    <h3>Python</h3>
+                </div>
+                <div class="w10 wm100 skill">
+                    <img src="img/matlab-logo-png_seeklogo-506902.png">
+                    <h3>Matlab</h3>
+                </div>
+                <div class="w10 wm100 skill">
+                    <img src="img/catia-solutions-logo-png_seeklogo-27188.png">
+                    <h3>Catia</h3>
+                </div>
+                <div class="w10 wm100 skill">
+                    <img src="img/latex6119.logowik.com.webp">
+                    <h3>LateX</h3>
+                </div>
+                <div class="w10 wm100 skill">
+                    <img src="img/assembly.jpg">
+                    <h3>Assembly</h3>
+                </div>
+                <div class="w10 wm100 skill">
+                    <img src="img/excel.jpg">
+                    <h3>Excel</h3>
+                </div>
+                <div class="w10 wm100 skill">
+                    <img src="img/logisim.jpg">
+                    <h3>Logisim evolution</h3>
+                </div>
+                <div class="w10 wm100 skill">
+                    <img src="img/c++.jpg">
+                    <h3>C++</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section" id="projets">
+        <div class="boxed text-center">
+            <h2>Mes projets</h2>
+            <div class="flex wrap gap20 space-between">
+                <div class="w25 wm50 realisation">
+                    <a href="pdf/Projet_Ancre_Suisse.pdf" target="_blank">
+                        <img src="img/Ancre_Suisse.jpg">
+                        <h3>Chronomètre de marine</h3> 
+                    </a> 
+                </div>
+                <div class="w25 wm50 realisation">
+                    <a href="pdf/MT_Epluche_Carotte.pdf" target="_blank">
+                        <img src="img/Epluche_Carotte.jpg">
+                        <h3>Epluche carotte</h3> 
+                    </a>
+                </div>
+                <div class="w25 wm50 realisation">
+                    <a href="pdf/Manufacturing_report.pdf" target="_blank">
+                        <img src="img/Manufacturing.jpg">
+                        <h3>Retro-ingénierie</h3>
+                    </a>
+                </div>
+                <div class="w25 wm50 realisation">
+                    <a href="pdf/Rapport_Robotique.pdf" target="_blank">
+                        <img src="img/Robotique.jpg">
+                        <h3>Robotique</h3>
+                    </a>
+                </div>
+                <div class="w25 wm50 realisation">
+                    <a href="pdf/rapport_TP_microfabrication.pdf" target="_blank">
+                        <img src="img/Microfabrication.png">
+                        <h3>Microfabrication</h3> 
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section dark" id="associations">
+        <h2 class="text-center">Mon parcours associatif</h2>
+        <div class="boxed">
+            <div class="flex toColumn mCenter">
+                <div class="w20 wm100">
+                <img src="img/sysmic.jpg" class="assoc-img">
+                </div>
+                <div class="w60 wm100">
+                    <h5>Festival Sysmic (2023) : Prévention et durabilité</h5>
+                    <p>En tant que responsable prévention et durabilité au Festival Sysmic, j’étais chargé de mettre en place des pratiques éco-responsables et des mesures de sécurité afin de garantir à la fois la durabilité du festival et le bien-être des participants.</p>
+                    <p1>Compétences développées:</p1>
+                    <p2>    
+                        <ul class="custom-list">
+                            <li>Gestion environnementale et organisation d’événements durables</li>
+                            <li>Évaluation des risques et coordination de la sécurité</li>
+                            <li>Communication et supervision sur site</li>
+                            <li>Gestion de l'infirmerie et approche préventive</li>
+                        </ul>
+                    </p2>
+                </div>
+            </div>
+            <div class="flex toColumn mCenter">
+                <div class="w20 wm100">
+                <img src="img/artiphys.jpg" class="assoc-img">
+                </div>
+                <div class="w60 wm100">
+                    <h5>Festival Artiphys (2024) : Innovations et Concepts</h5>
+                    <p>En tant que responsable du pôle Innovations & Concepts au Festival Artiphys, j’étais chargé d’imaginer et de développer des idées créatives afin d’améliorer l’expérience des festivaliers et de renforcer l’identité artistique et technique de l’événement.</p>
+                    <p1>Compétences développées:</p1>
+                    <p2>
+                        <ul class="custom-list">
+                            <li>Résolution créative de problèmes</li>
+                            <li>Collaboration avec les artistes et les autres organisateurs</li>
+                            <li>Développement de concepts et planification de projets</li>
+                            <li>Leadership dans l’organisation d’événements responsables</li>
+                        </ul>
+                    </p2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section" id="contact">
+        <div class="boxed text-center">
+            <h2>Contactez-moi</h2>
+            <div class="flex toColumn space-between mgap20">
+                <div class="w32 wm100 contact">
+                    <span class="material-icons icon">mail</span>
+                    <span class="label">E-mail</span>
+                    <span class="value"><a href="mailto:maxime.schw@gmail.com" class="email-link">maxime.schw@gmail.com</a></span>
+                </div>
+                <div class="w32 wm100 contact">
+                    <span class="material-icons icon">phone</span>
+                    <span class="label">Téléphone</span>
+                    <span class="value">+33782870442</span>
+                </div>
+                <div class="w32 wm100 contact">
+                    <span class="material-icons icon">link</span>
+                    <span class="label">LinkedIn</span>
+                    <span class="value">
+                        <a href="https://www.linkedin.com/in/maxime-schwartz-369470384/" 
+                            class="email-link" 
+                            target="_blank" 
+                            rel="noopener noreferrer">
+                            linkedin.com/in/maxime-schwartz-369470384
+                        </a>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="js/app.js"></script>
+</html>
