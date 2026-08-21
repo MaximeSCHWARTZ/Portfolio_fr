@@ -500,6 +500,15 @@ a{
         border-radius: 50%;       /* toujours cercle */
     }
 
+    .language-selector {
+        position: absolute;
+        left: 15%;
+        top: 50%;
+        transform: translateY(-50%);
+        margin-right: 0;
+        z-index: 1001;
+    }
+
     p{
         font-size:1rem;
         text-wrap: balance;
