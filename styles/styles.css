@@ -366,6 +366,58 @@ header{
     transition: .2s ease;
 }
 
+.language-selector {
+    position: relative;
+    margin-right: 20px;
+}
+
+.language-button {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    border: none;
+    background: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.language-button .material-icons {
+    font-size: 20px;
+}
+
+.language-arrow {
+    font-size: 18px !important;
+}
+
+.language-menu {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 100%;
+    background-color: white;
+    min-width: 150px;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.12);
+    z-index: 1000;
+}
+
+.language-menu a {
+    display: block;
+    padding: 10px 15px;
+    color: black;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.language-menu a:hover {
+    background-color: #F2F2F2;
+}
+
+.language-selector:hover .language-menu {
+    display: block;
+}
+
 a{
     text-decoration: none;
 }
